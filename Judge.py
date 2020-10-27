@@ -1,4 +1,4 @@
-# Teachable Machine 사이트에서 복사한 코드
+# Teachable Machine 사이트에서 복사한 코드를 수정하였음.
 import tensorflow.keras
 from PIL import Image, ImageOps
 import numpy as np

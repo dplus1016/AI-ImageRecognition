@@ -1,3 +1,5 @@
+# 그림파일과 같은 에러메시지가 출력되었을 경우, 아래의 사이트에 접속해서 프로그램 다운로드 후 
+
 https://support.microsoft.com/ko-kr/help/2977003/the-latest-supported-visual-c-downloads
 
 Visual Studio 2015, 2017 및 2019

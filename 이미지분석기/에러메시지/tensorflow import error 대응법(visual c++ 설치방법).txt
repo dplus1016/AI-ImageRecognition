@@ -1,0 +1,5 @@
+https://support.microsoft.com/ko-kr/help/2977003/the-latest-supported-visual-c-downloads
+
+Visual Studio 2015, 2017 ¹× 2019
+
+x64: vc_redist.x64.exe  --> ¼³Ä¡

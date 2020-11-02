@@ -13,4 +13,4 @@ AI-ImageJudge by Python Tkinter, Google Teachable Machine
   * 크롬 - 도움말 - 크롬 정보 - 버전확인
   * https://chromedriver.chromium.org/downloads에 접속해서 크롬 버전에 맞는 드라이버 다운로드
   * driver 폴더에 새로 다운로드 받은 파일 업로드(기존 파일 삭제)
-2) 
+2) 프로그램 실행 후, 검색어를 입력하면 image 폴더에 검색어 폴더가 생성되고 그 안에 이미지 파일들이 다운로드 됨

@@ -4,4 +4,4 @@ https://support.microsoft.com/ko-kr/help/2977003/the-latest-supported-visual-c-d
 
 Visual Studio 2015, 2017 및 2019
 
-x64: vc_redist.x64.exe  --> 설치
+x64: vc_redist.x64.exe  --> 설치 후 반드시 재부팅!!

@@ -16,7 +16,3 @@ AI-Image Recognition by Python Tkinter, Google Teachable Machine
 2) 프로그램 실행 후, 검색어를 입력하면 image 폴더에 검색어 폴더가 생성되고 그 안에 이미지 파일들이 다운로드 됨
 
 ---
-
-# 구글 이미지 자동 다운로드(크롤링) 프로그램: 구글 Colab용
-
-1) 

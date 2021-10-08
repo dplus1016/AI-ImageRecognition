@@ -7,7 +7,7 @@ AI-Image Recognition by Python Tkinter, Google Teachable Machine
 4) [2]테스트 이미지를 클릭해서 분석하고자 하는 테스트 이미지를 선택한다. (시간이 조금 걸릴 수 있음)
 ---
 
-# 구글 이미지 자동 다운로드(크롤링) 프로그램: 로컬용
+# 구글 이미지 자동 다운로드(크롤링) 프로그램
 
 1) 크롬 드라이버 다운로드
   * 크롬 - 도움말 - Chrome 정보 - 버전확인

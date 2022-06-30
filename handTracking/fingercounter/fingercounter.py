@@ -1,10 +1,5 @@
 import cv2
 import mediapipe as mp
-from math import sqrt
-import pynput
-
-mouse_drag = pynput.mouse.Controller()
-mouse_button = pynput.mouse.Button
 
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles

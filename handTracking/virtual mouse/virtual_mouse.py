@@ -1,10 +1,13 @@
 import cv2
 import mediapipe as mp
+
+#--추가---------------------------------
 from math import sqrt
 import pynput
 
 mouse_drag = pynput.mouse.Controller()
 mouse_button = pynput.mouse.Button
+#--추가---------------------------------
 
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
@@ -41,6 +44,7 @@ with mp_hands.Hands(
             mp_drawing_styles.get_default_hand_landmarks_style(),
             mp_drawing_styles.get_default_hand_connections_style())
         
+        #--추가-----------------------------------------------------------
         f1_x=int(hand_landmarks.landmark[4].x*100)
         f1_y=int(hand_landmarks.landmark[4].y*100)
         f2_x=int(hand_landmarks.landmark[8].x*100)
@@ -49,14 +53,13 @@ with mp_hands.Hands(
         cal=(f1_x-f2_x)**2 + (f1_y-f2_y)**2
         dist=sqrt(cal)
 
-        print(f2_x)
-
         mouse_drag.position=((100-f2_x)*16,f2_y*10)
 
         if dist<3: 
           mouse_drag.press(mouse_button.left)
           mouse_drag.release(mouse_button.left)
-        
+        #--추가-----------------------------------------------------------
+          
     # Flip the image horizontally for a selfie-view display.
     cv2.imshow('MediaPipe Hands', cv2.flip(image, 1))
     if cv2.waitKey(5) & 0xFF == 27:
